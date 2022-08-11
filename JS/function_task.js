@@ -526,12 +526,17 @@ Ex: counter()
 
 */
 let x = 0;
+// console.log(x)
 function counter() {
  return x+=1;
 }
 console.log(counter());
 console.log(counter());
+// console.log(x)
+
 console.log(counter());
+
+// console.log(x)
 
 
 x =0;
@@ -572,9 +577,11 @@ function resetCounter() {
   x = 0;
 }
 console.log(counter())
+// console.log(x)
 console.log(counter())
 console.log(counter() + " and the counter reset now")
-resetCounter()
+resetCounter() 
+// console.log(x)
 console.log(counter())
 console.log(counter() + " and the counter reset now")
 resetCounter()
