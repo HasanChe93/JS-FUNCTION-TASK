@@ -169,7 +169,7 @@ Ex: multiply(5,4)
 //    return   i=x*y
 //   }
 //   console.log (multiply(2, 3))
-  
+
 
 /*
 9
@@ -392,7 +392,7 @@ Ex: positive(-5)
 */
 // function positive(x){
 //   return Math.abs(x);
-  
+
 // }
 // console.log(positive(-5))
 
@@ -436,7 +436,7 @@ Ex: average(5,7,9,3,5)
 */
 // function average(x,y,z,i,e){
 //    return  n=(x+y+z+i+e)/5
-  
+
 //   } 
 //  console.log(average(5,7,9,3,5))
 /*
@@ -508,6 +508,31 @@ Ex: scoreInUniversty(71)
 // }
 
 // console.log(scoreInUniversty(71))
+function scoreInUniversty(grade) {
+let x=true
+switch (x) {
+    case 95 <= grade && grade <= 100:
+      console.log("A")
+      break;
+    case 85 <= grade && grade <= 94:
+      console.log("B")
+      break;
+    case 70 <= grade && grade <= 84:
+      console.log("C")
+      break;
+    case 50 <= grade && grade <= 69:
+      console.log("D")
+      break;
+    case 0 <= grade && grade <= 49:
+      console.log("F")
+      break;
+    // case 85<=grade && grade<=94:
+    //   console.log("A")
+    //   break;
+  }
+}
+
+((scoreInUniversty(75)))
 /*
 23
 Write a function called counter
@@ -525,65 +550,65 @@ Ex: counter()
 => 3
 
 */
-let x = 0;
-// console.log(x)
-function counter() {
- return x+=1;
-}
-console.log(counter());
-console.log(counter());
-// console.log(x)
+// let x = 0;
+// // console.log(x)
+// function counter() {
+//  return x+=1;
+// }
+// console.log(counter());
+// console.log(counter());
+// // console.log(x)
 
-console.log(counter());
+// console.log(counter());
 
-// console.log(x)
+// // console.log(x)
 
 
-x =0;
+// x =0;
 
-/*
-24
-Write a function called resetCounter
-that will reset the previuos function
-and return the number before reset and
-a string say that the counter reset
+// /*
+// 24
+// Write a function called resetCounter
+// that will reset the previuos function
+// and return the number before reset and
+// a string say that the counter reset
 
-Ex: counter()
-=> 1
+// Ex: counter()
+// => 1
 
-Ex: counter()
-=> 2
+// Ex: counter()
+// => 2
 
-Ex: counter()
-=> 3
+// Ex: counter()
+// => 3
 
-Ex: resetCounter()
-=> 3 and the counter reset now
+// Ex: resetCounter()
+// => 3 and the counter reset now
 
-Ex: counter()
-=> 1
+// Ex: counter()
+// => 1
 
-Ex: counter()
-=> 2
+// Ex: counter()
+// => 2
 
-Ex: resetCounter()
-=> 2 and the counter reset now
+// Ex: resetCounter()
+// => 2 and the counter reset now
 
-Ex: counter()
-=> 1
-*/
+// Ex: counter()
+// => 1
+// */
 
-function resetCounter() {
-  x = 0;
-}
-console.log(counter())
-// console.log(x)
-console.log(counter())
-console.log(counter() + " and the counter reset now")
-resetCounter() 
-// console.log(x)
-console.log(counter())
-console.log(counter() + " and the counter reset now")
-resetCounter()
-console.log(counter())
+// function resetCounter() {
+//   x = 0;
+// }
+// console.log(counter())
+// // console.log(x)
+// console.log(counter())
+// console.log(counter() + " and the counter reset now")
+// resetCounter()
+// // console.log(x)
+// console.log(counter())
+// console.log(counter() + " and the counter reset now")
+// resetCounter()
+// console.log(counter())
 
